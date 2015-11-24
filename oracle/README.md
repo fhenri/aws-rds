@@ -9,7 +9,7 @@ You need to make sure to change the following variables
     my $RDS_PORT=<port>; #usually 1521 by default
     my $RDS_HOST="<endpoint>.rds.amazonaws.com";
     my $RDS_LOGIN="<username>/<password>";
-    my $RDS_SID="DATABASE";
+    my $RDS_SID="<sid>";
 
 *Usage of script*
     
@@ -24,7 +24,7 @@ you need to make sure to change the following variables
     my $RDS_PORT=<port>; #usually 1521 by default
     my $RDS_HOST="<endpoint>.rds.amazonaws.com";
     my $RDS_LOGIN="<username>/<password>";
-    my $RDS_SID="DATABASE";
+    my $RDS_SID="<sid>";
 
 *Usage of script*
 

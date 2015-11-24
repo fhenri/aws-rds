@@ -10,7 +10,7 @@ use constant MB => 2<<20;
 my $RDS_PORT=<port>; #usually 1521 by default
 my $RDS_HOST="<endpoint>.rds.amazonaws.com";
 my $RDS_LOGIN="<username>/<password>";
-my $RDS_SID="DATABASE";
+my $RDS_SID="<sid>";
 
 #The $ARGV[0] is a parameter you pass into the script
 my $dirname = "DATA_PUMP_DIR";

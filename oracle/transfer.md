@@ -13,7 +13,7 @@ on target (target.cnrsdab7emat.us-east-1.rds.amazonaws.com)
 on source (source.cnrsdab7emat.us-east-1.rds.amazonaws.com)
 
     create database link to_rds connect to USERX identified by PASSX
-    using '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=target.cnrsdab7emat.us-east-1.rds.amazonaws.com)(PORT=1521))(CONNECT_DATA=(SID=ORCL)))';
+    using '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=target.cnrsdab7emat.us-east-1.rds.amazonaws.com)(PORT=1521))(CONNECT_DATA=(SID=<ORCL_SID>)))';
 
 
 launch the file transfer (from source)
@@ -35,7 +35,7 @@ launch the file transfer (from source)
 on target 
 
     create database link to_rds connect to USERX identified by PASSX
-    using '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=source.cnrsdab7emat.us-east-1.rds.amazonaws.com)(PORT=1521))(CONNECT_DATA=(SID=ARIBADB)))';
+    using '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=source.cnrsdab7emat.us-east-1.rds.amazonaws.com)(PORT=1521))(CONNECT_DATA=(SID=<ORCL_SID>)))';
 
 create Tablespaces and Users
 

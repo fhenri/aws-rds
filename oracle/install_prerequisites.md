@@ -39,6 +39,7 @@ Install oracle client and set variable (make sure to change `ORACLE_HOME` if nee
 
 
 **perl libraries**
+
 Install the following libraries from cpan
 
     cpan[]> install DBI
