@@ -43,7 +43,7 @@ Install oracle client and set variable (make sure to change `ORACLE_HOME` if nee
 Install the following libraries from cpan
 
     cpan[]> install DBI
-    cpan[]> install install Class::HPLOO
+    cpan[]> install Class::HPLOO
     cpan[]> install DBD
     cpan[]> install DBD:Oracle
 
